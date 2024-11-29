@@ -34,20 +34,22 @@ This repository demonstrates how to predict Customer Lifetime Value (CLTV) for r
   
 ## Results:
   •	Best Parameters for Gradient Boosting:
-          o	learning_rate: 0.1
-          o	max_depth: 7
-          o	n_estimators: 200
-          o	subsample: 0.9
+      learning_rate: 0.1, 
+      max_depth: 7, 
+      n_estimators: 200, 
+      subsample: 0.9
+      
   •	The Gradient Boosting model achieved an R-Squared value of 0.94 on the test dataset, demonstrating a high level of prediction accuracy.
   
 ## Libraries Used:
-    •	sklearn for machine learning algorithms.
-    •	pandas for data manipulation.
-    •	matplotlib and seaborn for visualizations.
-    •	numpy for numerical operations.
+    sklearn for machine learning algorithms.
+    pandas for data manipulation.
+    matplotlib and seaborn for visualizations.
+    numpy for numerical operations.
     
 ## Future Improvements:
   •	Incorporating additional machine learning models like XGBoost and Random Forest for comparison.
+  
   •	Exploring more sophisticated feature engineering techniques for improved model performance.
 
 
